@@ -203,7 +203,6 @@ h1,h2,h3{font-family:"Noto Serif SC",serif;margin:0;}
 }
 .reveal.in-view{opacity:1;transform:translateY(0);}
 
-/* ---------------- HOME HERO ---------------- */
 .hero{
   position:relative;
   padding:70px clamp(20px,6vw,60px) 40px;
@@ -215,13 +214,6 @@ h1,h2,h3{font-family:"Noto Serif SC",serif;margin:0;}
   margin:0 auto;
   overflow:hidden;
   z-index:1;
-}
-.hero-corner-seal{
-  position:absolute;
-  top:18px; right:clamp(20px,6vw,60px);
-  width:52px;
-  opacity:.85;
-  pointer-events:none;
 }
 .hero-copy .eyebrow{
   font-size:13px;
@@ -736,10 +728,7 @@ h1,h2,h3{font-family:"Noto Serif SC",serif;margin:0;}
 <main id="view-home" class="view active" data-title="首页">
 
   <section class="hero">
-    <svg class="hero-corner-seal" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
-      <rect x="4" y="4" width="52" height="52" rx="5" fill="none" stroke="#a23b2e" stroke-width="2.4"/>
-      <text x="30" y="39" text-anchor="middle" font-family="'Noto Serif SC',serif" font-size="26" font-weight="700" fill="#a23b2e">节</text>
-    </svg>
+    
     <div class="hero-copy reveal">
       <span class="eyebrow">时间的诗 · 生活的历</span>
       <h1>二十四<span>节气</span></h1>
